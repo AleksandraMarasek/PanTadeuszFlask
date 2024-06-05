@@ -1,0 +1,30 @@
+{% extends "base.html" %}
+{% block title %}Home page{% endblock %}
+{% block content %}
+<div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="https://www.rmfclassic.pl/scratch/classic2013/static-images/3a/b31dc0df2fe2f5e9.jpg"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://thumb.canalplus.pro/http/unsafe/1440x810/filters:quality(80)/r.dcs.redcdn.pl/http/o2/n/edytorEPG/mycanal/11420000/A_11425030.png"
+                class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+            <img src="https://kanonlektur.pl/_images/panta_deus_hu0470f9328c8c5883a09b07810c8dd5fb_118845_d779d70aedb153c925e1fd4a333c495a.jpg"
+                class="d-block w-100" alt="...">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+{% endblock %}
